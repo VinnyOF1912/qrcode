@@ -1,0 +1,54 @@
+body {
+    background-color: #D5E1EF;
+}
+
+.card{
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 320px;
+    height: 497px;
+    margin: 25% auto;
+    padding: 0px 0px;
+    border-radius: 15px;
+}
+
+.img_qrcode{
+    width: 288px;
+    height: 288px;
+    border-radius: 25px;
+    padding: 15px;
+}
+
+.texto_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 30px 35px;
+    height: 100px;
+    width: 250px;
+    margin-top: 20px;
+    padding-top: 0%;
+
+}
+
+.titulo_card{
+    color: #1F314F;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: auto;
+    width: 288px;
+    margin-bottom: 15px; /* Adicionando margem inferior */
+}
+
+.descricao_card{
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    word-spacing: 0.19px;
+    text-align: center;
+    color: #7D889E;
+}
